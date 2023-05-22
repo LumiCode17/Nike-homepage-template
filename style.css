@@ -11,6 +11,7 @@ a {
 body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
+    overflow-x: hidden;
 }
 
 /****Sidebar menu****/
@@ -72,21 +73,33 @@ body {
 .main_section {
     display: flex;
     padding-top: 10px;
-    margin-left: 5em;
+    margin-left: 2em;
     width: 100vw;
+    height: 100vh;
+    border-left: 1px solid #aa9b9b;
 }
 .section-1{
     display: flex;
     justify-content: space-between;
     width: 50%;
-    margin: 10px;
+    margin: 20px;
+}
+.section-2 {
+    height: 100vh;
+}
+.section-2 img {
+    height: 100vh;
+}
+.section-2 img {
+    margin-top: -10px;
 }
 .section-3 {
-    flex-basis: 100px;
+    flex-basis: 200px;
+    margin-top: -10px;
+    display: block;
+    text-align: center;
+    height: 100vh;
 }
-.section-3:nth-child(1) {
-    background: black;
-}
-.section-3:nth-child(2) {
-    background: red;
-}
+
+
+/*** modal ***/
