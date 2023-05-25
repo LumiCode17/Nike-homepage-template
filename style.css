@@ -84,6 +84,14 @@ body {
     width: 50%;
     margin: 20px;
 }
+.section-1 .anchor:hover {
+    color: #e40d0d !important;
+}
+#scroll-image img {
+    position: absolute;
+    left: 400px;
+    width: 25vw;
+}
 .section-2 {
     height: 100vh;
 }
