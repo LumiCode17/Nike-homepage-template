@@ -89,7 +89,7 @@ body {
 }
 #scroll-image img {
     position: absolute;
-    left: 400px;
+    /* left: 400px; */
     width: 25vw;
 }
 .section-2 {
