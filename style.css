@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sail&family=Teko&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -83,14 +85,21 @@ body {
     justify-content: space-between;
     width: 50%;
     margin: 20px;
+    /* background: url(https://cdn.dribbble.com/users/812515/screenshots/16112128/media/870229b9d88d8f5d45181599ca491e55.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
 }
 .section-1 .anchor:hover {
     color: #e40d0d !important;
 }
-#scroll-image img {
-    position: absolute;
-    /* left: 400px; */
-    width: 25vw;
+.center_quote h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}    
+.center_quote span {
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
 }
 .section-2 {
     height: 100vh;
